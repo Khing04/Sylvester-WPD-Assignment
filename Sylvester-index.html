@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Shakeem A. Sylvester">
+    <title>Vacation's R Us</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#form">Sign Up</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="https://unsplash.com/">Images Source</a></li>
+        </ul>
+      </nav>
+      <h1>Vacations<em>R</em>Us</h1>
+      <p><mark>Providing family vacation fun since<strong> 2008</strong></mark></p>
+      <a target="_blank" href="https://unsplash.com/photos/grayscale-photography-of-family-walking-on-beach-pn_HsW0jMls">
+        <img src="IMG/family-on-beach.webp" alt="Overlooking beautiful ocean with beach chairs and swimmers">
+      </a>
+    </header>
+      <br><br>
+      <hr>
+    <main>
+      <form method="get" action="HTML/welcome.html" id="form">
+        <h2>Sign Up</h2>
+        <a target="_blank" href="https://unsplash.com/photos/man-and-woman-holding-hands-together-with-boy-and-girl-looking-at-green-trees-during-day-9QTQFihyles">
+          <img src="IMG/family-in-forest.webp" alt="Family sitting in forest with parents holding hands">
+        </a>
+        <fieldset>
+          <legend>Account Information</legend>
+          <label for="firstName">&ast;First Name&colon;</label>
+          <input type="text" name="firstName" id="firstName">
+          &nbsp; &nbsp; &nbsp;
+          <label for="lastName">&ast;Last Name&colon;</label>
+          <input type="text" name="lastName" id="lastName">
+          <br>
+          <br>
+          <label for="email">&ast;Email&colon;</label>
+          <input type="email" name="email" id="email">
+          <br>
+          <br>
+          <label for="password">&ast;Password&colon;</label>
+          <input type="password" name="password" id="password">
+        </fieldset>
+        <fieldset>
+          <legend>Family Information</legend>
+          <label for="familySize">&ast;Family Size&colon;</label>
+          <input type="number" name="familySize" id="familySize">
+          <br>
+          <br>
+          <label>&ast;Activities&sol; Areas&colon;</label>
+          <br>
+          <label for="swim">Swimming</label>
+          <input type="checkbox" name="activities" id="swim" value="swimming">
+          &nbsp; &nbsp; &nbsp;
+          <label for="skiing">Skiing</label>
+          <input type="checkbox" name="activities" id="skiing" value="skiing">
+          &nbsp; &nbsp; &nbsp;
+          <label for="camp">Camping</label>
+          <input type="checkbox" name="activities" id="camp" value="camping">
+          &nbsp; &nbsp; &nbsp;
+          <label for="cruise">Cruise</label>
+          <input type="checkbox" name="activities" id="cruise" value="cruise">
+          &nbsp; &nbsp; &nbsp;
+          <label for="tour">Tourist Attraction</label>
+          <input type="checkbox" name="activities" id="tour" value="tour">
+          <br>
+          <br>
+          <label for="destination">&ast;Prefered Vacation&colon;</label>
+          <select id="destination" name="destination">
+            <option value="select">Select your Preference</option>
+            <option value="winter">Snow&sol;Winter</option>
+            <option value="tropics">Tropical</option>
+            <option value="site">Site Seeing</option>
+            <option value="festival">Festival</option>
+          </select>
+          <br>
+          <br>
+          <label for="comment">&ast;Please comment here anything else you wish to note&colon;</label>
+          <br>
+          <textarea name="comment" id="comment" cols="45" rows="10" placeholder="Type here..."></textarea>
+        </fieldset>
+        <br>
+        <button type="submit">Submit</button>
+        &nbsp; &nbsp; &nbsp;
+        <button type="reset">Clear</button>
+      </form>
+    </main>
+    <br><br>
+    <hr>
+    <footer>
+      <h2>Employee Contacts</h2>
+      <table id="contact">
+        <thead>
+          <tr>
+            <th>Country</th>
+            <th>Name</th>
+            <th>Contact</th>
+            <th>Hours</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Italy</td>
+            <td>Leornado DaVinci</td>
+            <td>leo@gmail.com</td>
+            <td>8 am - 8 pm</td>
+          </tr>
+          <tr>
+            <td>Tobago</td>
+            <td>Andrew Taylor</td>
+            <td>a.taylor@gmail.com</td>
+            <td>9 am - 6 pm</td>
+          </tr>
+          <tr>
+            <td>Sweden</td>
+            <td>Nikolaj Greer</td>
+            <td>niko@gmail.com</td>
+            <td>6 am - 10 pm</td>
+          </tr>
+        </tbody>
+      </table>
+    </footer>
+  </body>
+</html>
